@@ -26,7 +26,7 @@
 .about-heading::before,
 .home-6 .home-title,
 .faq .icon {
-    color: #ff805d !important;
+    color: #f68800 !important;
 }
 
 
@@ -58,9 +58,9 @@
 .sidebar .tagcloud a:hover,
 .footer-alt,
 .home-6 .heading::before,
-.about-heading::after,
-.avatar-title {
-    background-color: #ff805d !important;
+.about-heading::after
+ {
+    background-color: #f68800 !important;
 }
 
 /* btn box-shadow */
@@ -80,7 +80,7 @@
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary .open>.dropdown-toggle.btn-primary {
-    box-shadow: 0px 8px 20px -6px rgba(255, 128, 93, 0.6);
+    box-shadow: 0px 8px 20px -6px rgba(246, 136, 0, 0.6);
 }
 
 
@@ -95,7 +95,7 @@
 .pricing .pricing-box, .pricing .active,
 .team .team-member .team-hover,
 .social-list .social-icon:hover {
-    border-color: #ff805d !important;
+    border-color: #f68800 !important;
 }
 
 /* slider */
@@ -122,12 +122,12 @@
 /* process box-shadow */
 .works-description-left:hover::after,
 .works-description-right:hover::after {
-    box-shadow: 0px 0px 5px 2px #ff805d !important;
+    box-shadow: 0px 0px 5px 2px #f68800 !important;
 }
 
 /* feature box */
 .feature-icon,
 .bg-home4 {
-    background-color: rgba(255, 128, 93, 0.2);
+    background-color: rgba(246, 136, 0, 0.2);
 }
 

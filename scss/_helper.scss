@@ -87,6 +87,7 @@
 /***********heading***************/
 
 .heading {
+  font-family: 'Tajawal', sans-serif;
   font-size: 34px;
   span {
     position: relative;
@@ -117,6 +118,7 @@
     border-radius: 30px;
   }
   .arrow-icon {
+    z-index: 2;
     position: absolute;
     top: -26px;
     left: 0;

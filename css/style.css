@@ -18,9 +18,9 @@
 
 
 *****************************************/
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap');
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Tajawal', sans-serif;
   color: #252d31;
   font-size: 16px;
 }
@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito";
+  font-family: 'Tajawal', sans-serif;
   font-weight: 500;
   line-height: 1.3;
 }
@@ -57,11 +57,11 @@ html {
 
 /*******color Loop*******/
 .text-primary {
-  color: #ff805d !important;
+  color: #f68800 !important;
 }
 
 .bg-primary {
-  background-color: #ff805d !important;
+  background-color: #f68800 !important;
 }
 
 .bg-soft-primary {
@@ -165,8 +165,8 @@ html {
 }
 
 .section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   position: relative;
 }
 
@@ -250,7 +250,7 @@ html {
 
 .home-shape-arrow i {
   background: white;
-  border: 1px solid #ff805d;
+  border: 1px solid #f68800;
   height: 50px;
   width: 50px;
   margin: 0 auto;
@@ -275,7 +275,7 @@ html {
   bottom: 20px;
   z-index: 999;
   right: 30px;
-  background: #ff805d;
+  background: #f68800;
   border-color: transparent;
   border-radius: 50%;
   color: #ffffff;
@@ -303,7 +303,7 @@ html {
   transition: all 0.5s ease;
 }
 .primary-link:hover {
-  color: #ff805d;
+  color: #f68800;
 }
 
 @media (min-width: 1200px) {
@@ -327,8 +327,8 @@ html {
 }
 
 .btn-primary {
-  background: #ff805d;
-  border-color: #ff805d !important;
+  background: #f68800;
+  border-color: #f68800 !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary .open > .dropdown-toggle.btn-primary {
@@ -339,13 +339,13 @@ html {
 }
 
 .btn-outline-primary {
-  color: #ff805d;
-  border-color: #ff805d;
+  color: #f68800;
+  border-color: #f68800;
 }
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary .open > .dropdown-toggle.btn-primary {
-  background: #ff805d;
-  border-color: #ff805d;
+  background: #f68800;
+  border-color: #f68800;
   box-shadow: 0px 8px 20px -6px rgba(255, 128, 93, 0.6);
   transform: translateY(-6px);
 }
@@ -575,7 +575,7 @@ html {
 }
 
 .avatar-title {
-  background-color: #ff805d;
+  background-color: #f68800;
   color: #ffffff;
   display: flex;
   font-weight: 500;
@@ -627,13 +627,13 @@ html {
   font-weight: 500;
 }
 .navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link.active {
-  color: #ff805d;
+  color: #f68800;
 }
 .navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link.active::before {
   width: 100%;
 }
 .navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-  color: #ff805d;
+  color: #f68800;
 }
 .navbar-custom .navbar-collapse .nav-text .nav-item .nav-link {
   color: #252d31;
@@ -671,16 +671,16 @@ html {
   color: #252d31 !important;
 }
 .nav-sticky .navbar-nav .nav-item .nav-link.active {
-  color: #ff805d !important;
+  color: #f68800 !important;
 }
 .nav-sticky .navbar-nav .nav-item .nav-link:hover {
-  color: #ff805d !important;
+  color: #f68800 !important;
 }
 .nav-sticky .navbar-nav .nav-item .nav-link::before {
-  background-color: #ff805d !important;
+  background-color: #f68800 !important;
 }
 .nav-sticky .nav-btn {
-  background-color: #ff805d;
+  background-color: #f68800;
   color: white;
 }
 
@@ -719,24 +719,24 @@ html {
     color: #252d31 !important;
   }
   .navbar-custom .nav-item .nav-link.active {
-    color: #ff805d;
+    color: #f68800;
   }
 
   .navbar-nav .nav-item .nav-link {
     color: #252d31 !important;
   }
   .navbar-nav .nav-item .nav-link.active {
-    color: #ff805d !important;
+    color: #f68800 !important;
   }
   .navbar-nav .nav-item .nav-link:hover {
-    color: #ff805d !important;
+    color: #f68800 !important;
   }
   .navbar-nav .nav-item .nav-link::before {
-    background-color: #ff805d !important;
+    background-color: #f68800 !important;
   }
 
   .nav-btn {
-    background-color: #ff805d !important;
+    background-color: #f68800 !important;
     color: white !important;
   }
 }
@@ -766,7 +766,7 @@ html {
 }
 .home .home-btn .modal-btn:hover .btn-icon, .home .home-btn .modal-btn:focus .btn-icon {
   background-color: #ffffff;
-  color: #ff805d;
+  color: #f68800;
   transition: all 0.9s ease;
 }
 .home .home-modal {
@@ -937,7 +937,7 @@ html {
   line-height: 1.1;
 }
 .home-5 .home-headign span {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-style: italic;
 }
 .home-5 .home-text {
@@ -955,13 +955,13 @@ html {
   background-color: #000;
 }
 .home-6 .home-title {
-  color: #ff805d;
+  color: #f68800;
 }
 .home-6 .heading::before {
   content: "";
   width: 40px;
   height: 3px;
-  background: #ff805d;
+  background: #f68800;
   position: absolute;
   bottom: -30px;
 }
@@ -996,7 +996,7 @@ html {
   width: 44px;
   line-height: 44px;
   border-radius: 50%;
-  background-color: #ff805d;
+  background-color: #f68800;
   color: #ffffff;
 }
 .home-slider .swiper-button-next::after,
@@ -1164,8 +1164,10 @@ html {
   margin: 0 auto;
 }
 .services .card .card-body .box .avatar-sm .avatar-title {
-  align-items: center;
-  border-radius: 8px;
+  /*align-items: center;*/
+  /*border-radius: 50%;*/
+  width: 200px;
+  height: fit-content;
 }
 .services .card .card-body .box .avatar-sm .avatar-title i {
   font-size: 26px;
@@ -1208,7 +1210,7 @@ html {
   transition: all 0.5s ease-in-out;
 }
 .pricing .pricing-box .ribbon {
-  background: #ff805d;
+  background: #f68800;
   color: #ffffff;
   font-size: 0.9em;
   padding: 45px 54px 15px;
@@ -1234,7 +1236,7 @@ html {
   transform: scale(1.05);
 }
 .pricing .pricing-box, .pricing .active {
-  border: 2px solid #ff805d;
+  border: 2px solid #f68800;
 }
 
 @media (min-width: 992px) {
@@ -1315,7 +1317,7 @@ html {
 }
 .about .about-box .card-body .avatar-title i {
   font-size: 38px;
-  color: #ff805d;
+  color: #f68800;
 }
 
 @media (max-width: 768px) {
@@ -1346,14 +1348,14 @@ html {
 .about .nav.nav-tabs .nav-item .nav-link.active,
 .about .nav.nav-tabs .nav-item .nav-link :focus {
   border: 2px solid rgba(255, 128, 93, 0.8);
-  color: #ff805d;
+  color: #f68800;
   box-shadow: rgba(37, 45, 49, 0.27) 0px 3px 8px;
   transition: all 0.9s ease 0s;
   background: transparent;
 }
 .about .nav.nav-tabs .nav-item .nav-link:hover {
   border: 2px solid rgba(255, 128, 93, 0.8);
-  color: #ff805d;
+  color: #f68800;
 }
 .about .tab-content {
   padding-top: 1rem;
@@ -1391,7 +1393,7 @@ html {
   padding: 12px 58px 8px 66px;
 }
 .about .tab-content .accordion .accordion-button:not(.collapsed) {
-  color: #ff805d;
+  color: #f68800;
   background-color: transparent;
   box-shadow: none;
 }
@@ -1400,12 +1402,12 @@ html {
 }
 .about .tab-content .accordion .accordion-button:not(.collapsed) h6 span {
   opacity: 1;
-  color: #ff805d;
+  color: #f68800;
 }
 .about .tab-content .accordion .accordion-button:after {
   content: "\f0374";
   font-family: "Material Design Icons";
-  color: #ff805d;
+  color: #f68800;
   margin-top: -20px;
 }
 .about .tab-content .accordion .accordion-button.collapsed:after {
@@ -1425,7 +1427,7 @@ html {
   width: 10px;
   font-family: "Material Design Icons";
   font-size: 14px;
-  color: #ff805d;
+  color: #f68800;
   left: 0;
   top: 6px;
   transition: all 0.7s ease;
@@ -1435,7 +1437,7 @@ html {
   position: absolute;
   width: 19%;
   height: 2px;
-  background: #ff805d;
+  background: #f68800;
   bottom: -2px;
   left: 10px;
 }
@@ -1481,7 +1483,7 @@ ul.pattern li a {
   margin: 5px;
 }
 ul.pattern .color1 {
-  background-color: #ff805d;
+  background-color: #f68800;
 }
 ul.pattern .color2 {
   background-color: #06ba63;
@@ -1656,8 +1658,8 @@ ul.pattern .color6 {
   border-radius: 3px;
 }
 .bg-footer .social-icon li a:hover {
-  color: #ff805d;
-  border: 1px solid #ff805d;
+  color: #f68800;
+  border: 1px solid #f68800;
 }
 .bg-footer .icon-text {
   display: inline-flex;
@@ -1774,7 +1776,7 @@ ul.pattern .color6 {
   transition: all 0.5s;
 }
 .bg-footer .footer-link a:hover {
-  color: #ff805d;
+  color: #f68800;
 }
 .bg-footer .footer-subcribe input {
   padding: 15px 20px;
@@ -1802,6 +1804,19 @@ ul.pattern .color6 {
 }
 
 .footer-alt {
-  background-color: #ff805d;
+  background-color: #f68800;
   border-top: 1px solid rgba(37, 45, 49, 0.1);
 }/*# sourceMappingURL=style.css.map */
+
+.service-item {
+  border-radius: 50px; width: fit-content; height: fit-content; margin: 0 auto;
+}
+
+.service-item img {
+  border-radius: 50px;
+}
+
+.general-service .card {
+  background-color: #f9bd24;
+  color: white;
+}
